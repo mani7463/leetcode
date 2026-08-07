@@ -1,0 +1,18 @@
+1)class Solution(object):
+    def smallestNumber(self, n, t):
+        a=n
+        while n>0:
+            p=1
+            j=n
+            while j > 0:
+               p *= j % 10
+               j //= 10
+            
+            if p==0:
+                return n
+            elif p<t:
+                n=n+1
+            elif n>=a and p%t==0:
+                return n
+            else:
+                n=n+1
