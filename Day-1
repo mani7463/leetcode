@@ -42,5 +42,43 @@
             c.append(a[i])
             c.append(b[i])
         return c
-4)
+
+4)class Solution(object):
+    def interpret(self, command):
+        command=command.replace("()","o")
+        command=command.replace("(al)","al")
+        return command
+
+5)class Solution(object):
+    def numberOfEmployeesWhoMetTarget(self, hours, target):
+        n=len(hours)
+        a=0
+        for i in range(n):
+            if(hours[i]>=target):
+                a+=1
+            else:
+                continue
+        return a
+6)class Solution(object):
+    def countPairs(self, nums, target):
+        n=len(nums)
+        a=0
+        for i in range(n):
+            for j in range(n):
+                if i<j<n and (nums[i]+nums[j])<target:
+                    a+=1
+                else:
+                    continue
+        return a
+7)class Solution(object):
+    def minElement(self, nums):
+        a=[]
+        for i in nums:
+            s=0
+            while i>0:
+                r=i%10
+                s+=r
+                i=i//10
+            a.append(s)
+        return min(a)
         
