@@ -31,6 +31,16 @@
                     return num
                 else:
                     num=sum
-               
-            
+
+3)class Solution(object):
+    def shuffle(self, nums, n):
+        t=len(nums)
+        a=nums[0:n]
+        b=nums[n:t]
+        c=[]
+        for i in range(n):
+            c.append(a[i])
+            c.append(b[i])
+        return c
+4)
         
