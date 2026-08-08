@@ -93,3 +93,11 @@
                 continue
         return b
         
+9)class Solution(object):
+    def stableMountains(self, height, threshold):
+        z=[]
+        a=len(height)
+        for i in range(1,a):
+            if height[i-1]>threshold:
+                z.append(i)
+        return z
