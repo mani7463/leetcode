@@ -81,4 +81,15 @@
                 i=i//10
             a.append(s)
         return min(a)
+
+8)class Solution(object):
+    def busyStudent(self, startTime, endTime, queryTime):
+        a=len(startTime)
+        b=0
+        for i in range(a):
+            if startTime[i]<=queryTime<=endTime[i]:
+                b+=1
+            else:
+                continue
+        return b
         
