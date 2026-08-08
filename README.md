@@ -19,5 +19,6 @@ Day-1
 
 8)1450. Number of Students Doing Homework at a Given Time
 
+9)3285. Find Indices of Stable Mountains
 
 
