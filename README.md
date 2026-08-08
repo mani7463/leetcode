@@ -7,7 +7,7 @@ Day-1
 
 2)258. Add Digits
 
-3)470. Shuffle the Array
+3)1470. Shuffle the Array
 
 4)1678. Goal Parser Interpretation
 
