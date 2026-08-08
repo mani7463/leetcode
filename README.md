@@ -17,6 +17,7 @@ Day-1
 
 7)3300. Minimum Element After Replacement With Digit Sum
 
+8)1450. Number of Students Doing Homework at a Given Time
 
 
 
