@@ -29,3 +29,4 @@ Day-2
 
 3)2149. Rearrange Array Elements by Sign
 
+4)3959. Check Good Integer
