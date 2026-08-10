@@ -21,4 +21,7 @@ Day-1
 
 9)3285. Find Indices of Stable Mountains
 
+Day-2
+
+1)3895. Count Digit Appearances
 
