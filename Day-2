@@ -18,3 +18,19 @@
             else:
                 a.append(pref[i]^pref[i-1])
         return a
+
+3)class Solution(object):
+    def rearrangeArray(self, nums):
+        a=[]
+        b=[]
+        c=[]
+        for i in nums:
+            if i<0:
+                a.append(i)
+            else:
+                b.append(i)
+        for i in range(len(a)):
+            c.append(b[i])
+            c.append(a[i])
+        return c
+        
