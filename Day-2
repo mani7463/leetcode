@@ -112,3 +112,12 @@
             return "Red"
         else:
             return "Invalid"
+
+10)class Solution(object):
+    def firstPalindrome(self, words):
+        for item in words:
+            j=item
+            i=item[::-1]
+            if j==i:
+                return item
+        return ""
