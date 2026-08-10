@@ -36,3 +36,5 @@ Day-2
 6)2119. A Number After a Double Reversal
 
 7)3340. Check Balanced String
+
+8)2828. Check if a String Is an Acronym of Words
