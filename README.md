@@ -38,3 +38,5 @@ Day-2
 7)3340. Check Balanced String
 
 8)2828. Check if a String Is an Acronym of Words
+
+9)3894. Traffic Signal Color
