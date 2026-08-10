@@ -40,3 +40,5 @@ Day-2
 8)2828. Check if a String Is an Acronym of Words
 
 9)3894. Traffic Signal Color
+
+10)2108. Find First Palindromic String in the Array
