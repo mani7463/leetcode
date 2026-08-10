@@ -9,3 +9,12 @@
                 if digit==j:
                     a+=1
         return a
+2)class Solution(object):
+    def findArray(self, pref):
+        a=[]
+        for i in range(len(pref)):
+            if i ==0:
+                a.append(pref[i])
+            else:
+                a.append(pref[i]^pref[i-1])
+        return a
