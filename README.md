@@ -32,3 +32,5 @@ Day-2
 4)3959. Check Good Integer
 
 5)3099. Harshad Number
+
+6)2119. A Number After a Double Reversal
