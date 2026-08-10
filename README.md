@@ -34,3 +34,5 @@ Day-2
 5)3099. Harshad Number
 
 6)2119. A Number After a Double Reversal
+
+7)3340. Check Balanced String
