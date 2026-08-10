@@ -25,3 +25,4 @@ Day-2
 
 1)3895. Count Digit Appearances
 
+2)2433. Find The Original Array of Prefix Xor
