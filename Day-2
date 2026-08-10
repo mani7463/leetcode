@@ -34,3 +34,18 @@
             c.append(a[i])
         return c
         
+4)class Solution(object):
+    def checkGoodInteger(self, n):
+        a=0
+        b=0
+        
+        while n>0:
+            r=0
+            r=n%10
+            a+=r
+            b+=(r**2)
+            n//=10
+        if abs(a-b)>=50:
+            return True
+        else:
+            return False
