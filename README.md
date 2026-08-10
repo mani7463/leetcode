@@ -44,4 +44,8 @@ Day-2
 10)2108. Find First Palindromic String in the Array
 
 Day-3
+
 1)557. Reverse Words in a String III
+
+2)2185. Counting Words With a Given Prefix
+
