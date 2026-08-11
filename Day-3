@@ -7,3 +7,14 @@
             b.append(i)
         c=" ".join(b)
         return c
+
+2)
+
+3)class Solution(object):
+    def reversePrefix(self, word, ch):
+        a=word.find(ch)
+        b=word[a+1:]
+        c=word[:a+1]
+        d=c[::-1]
+        return d+b
+        
