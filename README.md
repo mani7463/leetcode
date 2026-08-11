@@ -49,3 +49,4 @@ Day-3
 
 2)2185. Counting Words With a Given Prefix
 
+3)2000. Reverse Prefix of Word
